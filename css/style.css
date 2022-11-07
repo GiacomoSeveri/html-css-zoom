@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #1b1a1a;
+    background-color: #000000;
     margin: 0 auto;
     font-family: sans-serif;
 }
@@ -21,11 +21,11 @@ header {
 }
 
 main {
-    padding: 40px 50px;
+    padding: 0px 50px;
 }
 
 img {
-    width: 190px;
+    width: 195px;
 }
 
 .head {
@@ -46,11 +46,11 @@ img {
 
 .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .column {
-    min-height: 150px;
+    min-height: 137px;
 }
 
 .user {
