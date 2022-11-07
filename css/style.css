@@ -5,7 +5,7 @@
 }
 
 body {
-
+    background-color: #1b1a1a;
     margin: 0 auto;
     font-family: sans-serif;
 }
@@ -13,12 +13,6 @@ body {
 header {
     background-color: #000000;
 }
-
-/* main {
-    background-color: #000000;
-    color: #fff;
-    max-width: 100vh;
-} */
 
 .head {
     display: flex;
@@ -37,17 +31,22 @@ header {
 }
 
 .conteiner {
-    max-width: 900px;
+    max-width: 1145px;
     margin: 100px auto;
+    width: 100%;
 }
 
 .row {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .column {
     min-height: 50px;
-    border: 2px dashed #000;
-    flex-basis: (100% / 7);
+    flex-basis: calc(100% / 3);
+}
+
+.user {
+    position: relative;
+    cursor: pointer;
 }
