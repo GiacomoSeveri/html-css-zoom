@@ -10,8 +10,22 @@ body {
     font-family: sans-serif;
 }
 
+/* main {
+    margin: 10px auto;
+    max-width: 100% vw;
+    padding: 0 15px;
+} */
+
 header {
     background-color: #000000;
+}
+
+main {
+    padding: 40px 50px;
+}
+
+img {
+    width: 190px;
 }
 
 .head {
@@ -30,23 +44,31 @@ header {
     border-radius: 6px;
 }
 
-.conteiner {
-    max-width: 1145px;
-    margin: 100px auto;
-    width: 100%;
-}
-
 .row {
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
 }
 
 .column {
-    min-height: 50px;
-    flex-basis: calc(100% / 3);
+    min-height: 150px;
 }
 
 .user {
     position: relative;
     cursor: pointer;
+}
+
+.profile-p {
+    position: relative;
+    max-width: 100%;
+}
+
+.profile-n {
+    color: #fff;
+    background-color: #666666;
+    padding: 3px 5px;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    font-size: 10px;
 }
